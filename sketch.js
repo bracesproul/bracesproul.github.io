@@ -1,4 +1,4 @@
-let balls = [];
+/*let balls = [];
 
 class ball {
   constructor(x, y, r) {
@@ -57,3 +57,4 @@ function draw() {
     balls[i].show()
   }
 }
+*/
