@@ -7,44 +7,35 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
     <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
 
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #111;
-        }
     </style>
 </head>
-<body>
+<body bgcolor="black"
+>
 <script src="sketch.js"></script>
 
 
-<ul>
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="ballgame.html">Fun Ball Game</a></li>
-    <li><a href="wordchanger.html">Word Changer With Click</a></li>
-    <li><a href="gol.html">Game Of Life</a></li>
-    <li><a href="stars.html">Space Travel</a></li>
 
-</ul>
+</h1>
 
+<div class="dropdown">
+    <button class="dropbtn">All</button>
+    <div class="dropdown-content">
+        <a href="gol.html">Game Of Life</a>
+        <a href="ballgame.html">Fun Ball Game</a>
+        <a href="wordchanger.html">Words</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">Home</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home Page</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Lacrosse</button>
+                    <div class="dropdown-content">
+                        <a href="highlights.html">Highlights(work in progress)</a>
 
 </body>
 </html>
