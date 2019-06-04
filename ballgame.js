@@ -36,7 +36,7 @@ class ball {
 
 
 function setup() {
-    createCanvas(1000, 1000);
+    createCanvas(innerWidth, innerHeight);
     for (let i = 0; i < 500; i++) {
         balls[i] = new ball(random(width), random(height), random(10, 40))
 
