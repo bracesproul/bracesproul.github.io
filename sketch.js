@@ -2,7 +2,7 @@ let input, button, greeting;
 var col = 0;
 function setup() {
     greeting = createElement('h1','Welcome To Braces Home Page');
-    greeting.position(100, 60);
+    greeting.position(400, 400);
     createCanvas(innerWidth, innerHeight);
 
 
